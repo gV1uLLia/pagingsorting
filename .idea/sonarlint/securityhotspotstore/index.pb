@@ -13,3 +13,5 @@ Ssbdemo01/src/main/java/ch/noseryoung/sbdemo01/domain/product/ProductRepository.
 Psbdemo01/src/main/java/ch/noseryoung/sbdemo01/domain/product/ProductService.java,8\1\81d27f9e958b5adac1537fba6a14992084596db4
 |
 Lsbdemo01/src/main/java/ch/noseryoung/sbdemo01/domain/product/ProductWeb.java,9\7\97674855d92cca4ba5bfbf08ea55e4b7a2dabcb6
+“
+csbdemo01/src/main/java/ch/noseryoung/sbdemo01/domain/pagination/PaginatedResultsRetrievedEvent.java,a\0\a0d6c8a072ce3339c120903d805cc76d969fc66e

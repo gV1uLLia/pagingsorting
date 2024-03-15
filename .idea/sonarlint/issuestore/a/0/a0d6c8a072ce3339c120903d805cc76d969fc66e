@@ -1,0 +1,17 @@
+
+t
+java:S1948	",Make "uriBuilder" transient or serializable.(ñÇâ’ùÿÿÿÿ8Êíä1J$3892a85f-1ee6-44cf-a530-8466e88c652a
+m
+java:S1948
+"*Make "response" transient or serializable.(ï²ÙÕ8Êíä1J$8e531dce-96cb-47ac-af47-d76c2082e4de
+v
+java:S1068	".Remove this unused "uriBuilder" private field.(ñÇâ’ùÿÿÿÿ8‘ä1J$8d71c8ea-7f68-4f67-b1d9-ea30a3e116cc
+o
+java:S1068
+",Remove this unused "response" private field.(ï²ÙÕ8½Öä1J$50e48d7b-0abf-49bf-9e32-fa8b3df452bf
+p
+java:S1068"(Remove this unused "page" private field.(‰¶£úÿÿÿÿ8½Öä1J$1f73246c-0f3d-4710-a526-7cb72d11deef
+q
+java:S1068".Remove this unused "totalPages" private field.(™¥ËŒ8½Öä1J$8c909a33-9fc9-485d-af83-c0cbef9cb9ae
+j
+java:S1068"(Remove this unused "size" private field.(‰öÆ)8½Öä1J$51add57a-bce8-4330-9290-cb272be4774d
