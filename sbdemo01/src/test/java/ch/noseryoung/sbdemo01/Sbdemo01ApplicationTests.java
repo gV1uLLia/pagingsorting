@@ -1,13 +1,13 @@
 package ch.noseryoung.sbdemo01;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootTest
-class Sbdemo01ApplicationTests {
+@SpringBootApplication
+public class PaginationApplication {
 
-	@Test
-	void contextLoads() {
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(PaginationApplication.class, args);
+    }
 
 }
