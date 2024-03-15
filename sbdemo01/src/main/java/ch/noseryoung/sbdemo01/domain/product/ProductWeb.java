@@ -3,6 +3,7 @@ package ch.noseryoung.sbdemo01.domain.product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Sort;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,27 +15,22 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/products")
 public class ProductWeb {
-    Pageable firstPageWithTwoElements = (Pageable) PageRequest.of(0, 2);
 
-    Pageable secondPageWithFiveElements = (Pageable) PageRequest.of(1, 5);
 
     @Autowired
-    private ProductService service;
+    private ProductService productService;
 
     @GetMapping()
-    public Page<Product> getProducts(Pageable pageable) {
-        return service.getAll(pageable);
+    public Page<Product> getAllProducts(
+            @RequestParam(defaultValue = "0") int page,
+            @RequestParam(defaultValue = "3") int size,
+            @RequestParam(defaultValue = "name,asc") String[] sort) {
+
+        Sort sortOrder = Sort.by(sort[0]);
+        PageRequest pageable = PageRequest.of(page, size, sortOrder);
+        return productService.listAll((Pageable) pageable);
     }
 
-    @GetMapping("/{productId}")
-    public ResponseEntity<Optional<Product>> findById
-            (@PathVariable("productId") Integer productId) {
-        return ResponseEntity.ok().body(service.getById(productId));
-    }
 
-    @ExceptionHandler(NoSuchElementException.class)
-    public ResponseEntity<String> handleNoSuchElementException(NoSuchElementException nsee) {
-        return ResponseEntity.status(404).body(nsee.getMessage());
-    }
 
 }
