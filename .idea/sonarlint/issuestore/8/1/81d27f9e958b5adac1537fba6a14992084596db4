@@ -1,0 +1,15 @@
+
+…
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8‘½ä1J$3e2c1a2d-8ddd-4707-8beb-ca3764fce47a
+
+java:S1854"LRemove this useless assignment to local variable "secondPageTwentyElements".(†Åºû8’‘½ä1J$f83a5c14-6f38-4b6c-8fee-f349e224fc8e
+
+java:S1854"HRemove this useless assignment to local variable "firstPageTenElements".(İ†ºÙøÿÿÿÿ8’‘½ä1J$3dd10ff3-af55-402a-aa6b-6a304b881f9b
+
+java:S1481"9Remove this unused "firstPageTenElements" local variable.(İ†ºÙøÿÿÿÿ8”‘½ä1J$cde6cb40-0866-44ef-9614-b98c7bab7a8d
+€
+java:S1481"=Remove this unused "secondPageTwentyElements" local variable.(†Åºû8”‘½ä1J$a60c0b3d-a726-4972-9004-a76362293541
+x
+java:S1172"5Remove these unused method parameters "page", "size".(ü¯ªÿ8¬„¿ä1J$7009e513-5251-4fb5-b4df-0ec6e1dbc9fb
+z
+java:S1135 "2Complete the task associated to this TODO comment.(ğ´«úÿÿÿÿ8®„¿ä1J$75407d52-cd21-4015-9a5a-7c2a58fab9bc
